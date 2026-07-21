@@ -1,9 +1,5 @@
 # Responsible LLM Reproducibility — Equity-First Audit of Open-Source LLMs for Digital-Health Guidance
 
-Reproducibility package for the paper:
-
-> **Responsible Use of Large Language Models in Digital Health: An Equity-First Governance Framework**
-> A. Yazdinejad and J. Kong. *Scientific Reports* (2026).
 
 This repository reproduces **all data-derived empirical figures and quantitative tables** in the paper
 from the stored model responses, using a small, documented Python package. It runs fully offline and is
