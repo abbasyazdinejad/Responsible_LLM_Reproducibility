@@ -1,0 +1,11 @@
+# Runtime dependencies for the reproduction pipeline (reasonably constrained).
+pandas>=1.5,<3
+numpy>=1.23
+matplotlib>=3.6
+scipy>=1.9
+PyYAML>=6.0
+# Notebook + tests (optional but recommended)
+jupyterlab>=4.0
+notebook>=7.0
+ipykernel>=6.0
+pytest>=7.0

@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated paper and this software."
+title: "Responsible LLM Reproducibility: Equity-First Audit of Open-Source LLMs for Digital-Health Guidance"
+version: "1.0.0"
+date-released: "2026-01-01"   # PLACEHOLDER — update to the actual release date before upload
+authors:
+  - family-names: "Yazdinejad"
+    given-names: "Abbas"
+  - family-names: "Kong"
+    given-names: "Jude"
+repository-code: "https://github.com/<ORG_OR_USER>/Responsible_LLM_Reproducibility_GitHub"  # PLACEHOLDER
+license: "MIT"
+keywords:
+  - large language models
+  - digital health
+  - equity
+  - reproducibility
+  - FNMWCF
+preferred-citation:
+  type: article
+  title: "Responsible Use of Large Language Models in Digital Health: An Equity-First Governance Framework"
+  authors:
+    - family-names: "Yazdinejad"
+      given-names: "Abbas"
+    - family-names: "Kong"
+      given-names: "Jude"
+  journal: "Scientific Reports"
+  year: 2026
+  # doi: "PLACEHOLDER — add only when an actual DOI is assigned"

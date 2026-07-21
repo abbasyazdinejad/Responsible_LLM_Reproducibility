@@ -1,0 +1,13 @@
+include README.md LICENSE CITATION.cff pyproject.toml requirements.txt environment.yml
+recursive-include config *.yaml *.json
+recursive-include docs *.md
+recursive-include data *.md *.csv .gitkeep
+recursive-include notebooks *.ipynb
+recursive-include scripts *.py
+recursive-include tests *.py
+# Raw CCHS PUMF is never packaged (see data/README.md).
+include outputs/figures/*.png
+include outputs/tables/*.csv
+include outputs/validation/*.json
+global-exclude data/raw/*.csv
+global-exclude *.pyc __pycache__/*

@@ -1,0 +1,4 @@
+model,crisis_full_pct,crisis_trimmed180_pct,delta_pts
+DeepSeek-r1:8B,71.3,30.0,41.3
+LLaMA-3.2:latest,99.6,97.6,2.0
+Mistral-7B,99.6,96.9,2.7

@@ -1,0 +1,4 @@
+model,mean_words,median_words,min_words,max_words,std_words,pct_at_180_cap,fre_mean,pct_think_raw
+DeepSeek-r1:8B,177.6,180.0,110,180,7.2,84.7,46.6,100.0
+LLaMA-3.2:latest,175.8,180.0,127,180,7.3,56.2,49.9,0.0
+Mistral-7B,177.6,180.0,142,180,6.0,78.0,41.2,0.0

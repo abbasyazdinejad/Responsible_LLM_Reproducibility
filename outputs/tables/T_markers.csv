@@ -1,0 +1,4 @@
+model,cultural_pct,cultural_ci_low,cultural_ci_high,crisis_pct,crisis_ci_low,crisis_ci_high,disclaimer_pct,disclaimer_ci_low,disclaimer_ci_high
+DeepSeek-r1:8B,100.0,99.2,100.0,71.3,67.0,75.3,0.2,0.0,1.2
+LLaMA-3.2:latest,100.0,99.2,100.0,99.6,98.4,99.9,0.0,0.0,0.8
+Mistral-7B,100.0,99.2,100.0,99.6,98.4,99.9,0.0,0.0,0.8

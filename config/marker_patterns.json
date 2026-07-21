@@ -1,0 +1,5 @@
+{
+  "crisis": "(?:crisis\\s*line|call\\s*911|emergency|suicide\\s*hotline|seek\\s*immediate\\s*help)",
+  "disclaimer": "(?:not\\s+medical\\s+advice|consult\\s+(?:a|your)\\s+(?:doctor|clinician|provider))",
+  "cultural": "(?:community|tradition|elder|land|language|culture|ceremony)"
+}

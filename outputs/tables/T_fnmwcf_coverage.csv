@@ -1,0 +1,4 @@
+model,cov_culture_as_foundation,cov_community_and_belonging,cov_land_and_holistic_wellness,cov_self_determination_and_continuum,mean_pct_themes
+DeepSeek-r1:8B,100.0,99.8,100.0,90.9,97.7
+LLaMA-3.2:latest,100.0,100.0,100.0,55.8,88.9
+Mistral-7B,100.0,100.0,100.0,97.6,99.4

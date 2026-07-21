@@ -1,0 +1,28 @@
+# Raw Statistics Canada CCHS PUMF (user-downloaded; not redistributed)
+data/raw/*
+!data/raw/.gitkeep
+
+# Jupyter / Python caches
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS / logs / temporary outputs
+.DS_Store
+outputs/tmp/
+*.log
+
+# NOTE: outputs/figures/ and outputs/tables/ ARE committed (final regenerated
+# empirical figures and quantitative tables). Regenerate with:
+#     python scripts/reproduce_all.py
+
+# Local publish helper (not part of the scientific package)
+/publish_to_github.sh

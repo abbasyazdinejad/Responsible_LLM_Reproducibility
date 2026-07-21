@@ -1,0 +1,42 @@
+{
+  "description": "Expected key manuscript values with numerical tolerances (proportions 0-1).",
+  "tolerance_pct": 1.5,
+  "fkgl_tol": 0.5,
+  "counts": {
+    "responses_per_model": 450,
+    "total_responses": 1350
+  },
+  "crisis_full": {
+    "DeepSeek-r1:8B": 0.713,
+    "LLaMA-3.2:latest": 0.996,
+    "Mistral-7B": 0.996
+  },
+  "crisis_trimmed": {
+    "DeepSeek-r1:8B": 0.300,
+    "LLaMA-3.2:latest": 0.976,
+    "Mistral-7B": 0.969
+  },
+  "disclaimer": {
+    "DeepSeek-r1:8B": 0.002,
+    "LLaMA-3.2:latest": 0.000,
+    "Mistral-7B": 0.000
+  },
+  "cultural": {
+    "DeepSeek-r1:8B": 1.000,
+    "LLaMA-3.2:latest": 1.000,
+    "Mistral-7B": 1.000
+  },
+  "fkgl_mean": {
+    "DeepSeek-r1:8B": 10.8,
+    "LLaMA-3.2:latest": 9.8,
+    "Mistral-7B": 10.4
+  },
+  "pilot_deepseek_n": 13,
+  "persona_verification": {
+    "matching_records": {
+      "SK/Female/25–34": 361,
+      "SK/Male/50–64": 1551,
+      "BC/Female/50–64": 2612
+    }
+  }
+}

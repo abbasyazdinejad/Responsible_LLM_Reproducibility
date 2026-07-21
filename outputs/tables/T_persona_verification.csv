@@ -1,0 +1,4 @@
+province,sex,age_group,depression_severity,life_satisfaction,matching_cchs_records,source
+SK,Female,25–34,6,6,361,documented
+SK,Male,50–64,6,6,1551,documented
+BC,Female,50–64,6,6,2612,documented

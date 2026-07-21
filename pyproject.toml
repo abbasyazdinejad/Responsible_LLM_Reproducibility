@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "responsible-llm-audit"
+version = "1.0.0"
+description = "Reproducibility package for the equity-first audit of open-source LLMs for digital-health guidance."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Abbas Yazdinejad" },
+  { name = "Jude Kong" },
+]
+keywords = ["LLM", "digital health", "equity", "reproducibility", "FNMWCF", "audit"]
+dependencies = [
+  "pandas>=1.5",
+  "numpy>=1.23",
+  "matplotlib>=3.6",
+  "scipy>=1.9",
+  "PyYAML>=6.0",
+]
+
+[project.optional-dependencies]
+notebook = ["jupyterlab>=4.0", "notebook>=7.0", "ipykernel>=6.0"]
+test = ["pytest>=7.0"]
+
+[project.scripts]
+reproduce-llm-audit = "responsible_llm_audit.reproduce:run_full_reproduction"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+responsible_llm_audit = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

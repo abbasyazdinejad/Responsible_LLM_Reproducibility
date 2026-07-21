@@ -1,0 +1,127 @@
+{
+  "all_value_checks_passed": true,
+  "n_checks": 17,
+  "n_failed": 0,
+  "output_problems": [],
+  "checks": [
+    {
+      "name": "total_responses",
+      "expected": 1350,
+      "observed": 1350,
+      "ok": true,
+      "tol": 0.0
+    },
+    {
+      "name": "responses[DeepSeek-r1:8B]",
+      "expected": 450,
+      "observed": 450,
+      "ok": true,
+      "tol": 0.0
+    },
+    {
+      "name": "responses[LLaMA-3.2:latest]",
+      "expected": 450,
+      "observed": 450,
+      "ok": true,
+      "tol": 0.0
+    },
+    {
+      "name": "responses[Mistral-7B]",
+      "expected": 450,
+      "observed": 450,
+      "ok": true,
+      "tol": 0.0
+    },
+    {
+      "name": "crisis_full[DeepSeek-r1:8B]",
+      "expected": 0.713,
+      "observed": 0.713,
+      "ok": true,
+      "tol": 0.015
+    },
+    {
+      "name": "crisis_full[LLaMA-3.2:latest]",
+      "expected": 0.996,
+      "observed": 0.996,
+      "ok": true,
+      "tol": 0.015
+    },
+    {
+      "name": "crisis_full[Mistral-7B]",
+      "expected": 0.996,
+      "observed": 0.996,
+      "ok": true,
+      "tol": 0.015
+    },
+    {
+      "name": "disclaimer[DeepSeek-r1:8B]",
+      "expected": 0.002,
+      "observed": 0.002,
+      "ok": true,
+      "tol": 0.015
+    },
+    {
+      "name": "disclaimer[LLaMA-3.2:latest]",
+      "expected": 0.0,
+      "observed": 0.0,
+      "ok": true,
+      "tol": 0.015
+    },
+    {
+      "name": "disclaimer[Mistral-7B]",
+      "expected": 0.0,
+      "observed": 0.0,
+      "ok": true,
+      "tol": 0.015
+    },
+    {
+      "name": "crisis_trim[DeepSeek-r1:8B]",
+      "expected": 0.3,
+      "observed": 0.3,
+      "ok": true,
+      "tol": 0.015
+    },
+    {
+      "name": "crisis_trim[LLaMA-3.2:latest]",
+      "expected": 0.976,
+      "observed": 0.976,
+      "ok": true,
+      "tol": 0.015
+    },
+    {
+      "name": "crisis_trim[Mistral-7B]",
+      "expected": 0.969,
+      "observed": 0.969,
+      "ok": true,
+      "tol": 0.015
+    },
+    {
+      "name": "fkgl[DeepSeek-r1:8B]",
+      "expected": 10.8,
+      "observed": 10.8,
+      "ok": true,
+      "tol": 0.5
+    },
+    {
+      "name": "fkgl[LLaMA-3.2:latest]",
+      "expected": 9.8,
+      "observed": 9.75,
+      "ok": true,
+      "tol": 0.5
+    },
+    {
+      "name": "fkgl[Mistral-7B]",
+      "expected": 10.4,
+      "observed": 10.39,
+      "ok": true,
+      "tol": 0.5
+    },
+    {
+      "name": "pilot_deepseek_n",
+      "expected": 13,
+      "observed": 13,
+      "ok": true,
+      "tol": 0.0
+    }
+  ]
+}
